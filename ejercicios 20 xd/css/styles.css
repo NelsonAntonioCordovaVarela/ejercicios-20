@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(247, 251, 255);
+    text-align: center;
+    font-style: italic;
+    font-family: 'Open Sans';
+    
+}
+
+header{
+    font-size: 20px;
+}
+
+
+h1 {
+    color:black;
+}
+
+
+
+
+h2 {
+    color: rgb(22, 22, 22);
+    display: 20px;
+    margin-bottom: 30px;
+    
+}
+li{
+    
+    font-size: 30px;
+}
+p{
+    font-style: italic;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+h6{
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+}
+hr{
+    color: rgb(255, 255, 255);
+    margin-top: 49%;
+    border-color: rgb(0, 0, 0);
+}
+#boton1{
+   position: relative;
+   right: 45%;
+   margin-top: 1%;
+   
+ 
+}
+#regresarfirst{
+    font-size: 40px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: beige;
+}
+
+#Moddperso{
+    text-align: left;
+}
+/* para que se vea bonito el form */
+.recuadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: rgb(119, 160, 123);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+    font-size: 32px;
+}
+/* cuando pides numero en input */
+#n1{
+    width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+}
+#n2{
+    width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+}
+/* para cualquier diseno de boton pero predisenado */
+#botoncito{
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: rgb(73, 63, 209);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.9s ease-in-out;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    
+}
+.Respuesta{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: 0 auto;
+      color:rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 25px;
+      background-color: rgb(73, 63, 209);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+      margin-top: 5%;
+}
+
+#operador{
+    width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+}
+#n3{
+    width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+}
+#enunciado{
+    width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 1px solid #634040;
+}
+
+  /* Estilos para el contenedor de grupos */
+    .grupo {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    /* Estilos para cada elemento de la lista dentro del grupo */
+    .grupo div {
+        flex: 1;
+        margin: 0 5px;
+        text-align: center;
+    }
+
+    /* Estilos para el enlace dentro de cada elemento de la lista */
+    .grupo div a {
+        text-decoration: none;
+        color: #333;
+    }
